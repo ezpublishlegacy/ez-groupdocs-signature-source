@@ -22,5 +22,7 @@ With GroupDocs signature plugin for ezPublish you can easily [sign documents onl
 ###Created by [GroupDocs Marketplace Team](http://groupdocs.com/marketplace/).
 
 ###ChangeLog
+2013-04-05
+1. Plugin updated to use Signature API 2.0
 2012-11-30
 1.  Client CMS name tracking was added(referer parameter in the URL).

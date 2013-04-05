@@ -73,7 +73,7 @@ Actions
         cmsName = 'ezPublish'
         pluginVersion = '1.0'
 		myWindow=window.open('','','width=500,height=300')
-		myWindow.document.write('<iframe src="https://apps.groupdocs.com/signature/forms/SignEmbed/'+fileid+'?&referer='+cmsName+'/'+pluginVersion+'" frameborder="0" width="100%" height="100%"></iframe>')
+		myWindow.document.write('<iframe src="https://apps.groupdocs.com/signature2/forms/SignEmbed/'+fileid+'?&referer='+cmsName+'/'+pluginVersion+'" frameborder="0" width="100%" height="100%"></iframe>')
 	}
 -->
 </script>

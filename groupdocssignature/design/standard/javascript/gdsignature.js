@@ -9318,7 +9318,7 @@ $(function(){
 					var height = val[2];
                     var cmsName = 'ezPublish'
                     var pluginVersion = '1.0'
-					var iframe = '<iframe src="https://apps.groupdocs.com/signature/forms/SignEmbed/'+file_id+'?&referer='+cmsName+'/'+pluginVersion+'" frameborder="0" width="'+width+'" height="'+height+'"></iframe>';
+					var iframe = '<iframe src="https://apps.groupdocs.com/signature2/forms/SignEmbed/'+file_id+'?&referer='+cmsName+'/'+pluginVersion+'" frameborder="0" width="'+width+'" height="'+height+'"></iframe>';
 					var re = new RegExp(key,"gi");
 					$('#main').html( $('#main').html().replace(re,iframe) );
 				});
