@@ -9318,7 +9318,7 @@ $(function(){
 					var height = val[2];
                     var cmsName = 'ezPublish-Signature'
                     var pluginVersion = '1.0'
-					var iframe = '<iframe src="https://apps.groupdocs.com/signature2/forms/SignEmbed/'+file_id+'?&referer='+cmsName+'/'+pluginVersion+'" frameborder="0" width="'+width+'" height="'+height+'">If you can see this text, your browser does not support iframes. Please enable iframe support in your browser or use the latest version of any popular web browsers such as Mozilla Firefox or Google Chrome. Learn more about GroupDocs <a href="http://groupdocs.com/apps/signature">online signature service</a>.</iframe>';
+					var iframe = '<iframe src="https://apps.groupdocs.com/signature2/forms/SignEmbed/'+file_id+'?&referer='+cmsName+'/'+pluginVersion+'" frameborder="0" width="'+width+'" height="'+height+'">If you can see this text, your browser does not support iframes. Please enable iframe support in your browser or use the latest version of any popular web browser such as Mozilla Firefox or Google Chrome. For more help, please check our documentation Wiki: http://groupdocs.com/docs/display/signature/GroupDocs+Signature+Integration+with+3rd+Party+Platforms</iframe>';
 					var re = new RegExp(key,"gi");
 					$('#main').html( $('#main').html().replace(re,iframe) );
 				});
