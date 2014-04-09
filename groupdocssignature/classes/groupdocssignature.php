@@ -133,7 +133,7 @@ class GroupDocsSignature extends eZPersistentObject
     public static function getListCount() 
     { 
         $db = eZDB::instance(); 
-        $query = 'SELECT COUNT(id) AS count FROM gds'; 
+        $query = 'SELECT COUNT(id) AS count FROM gdsig'; 
         $rows = $db -> arrayQuery( $query ); 
         return $rows[0]['count'];
     } 
@@ -141,7 +141,7 @@ class GroupDocsSignature extends eZPersistentObject
     public static function getMaxId() 
     { 
         $db = eZDB::instance(); 
-        $query = 'SELECT MAX(id) AS mid FROM gds'; 
+        $query = 'SELECT MAX(id) AS mid FROM gdsig'; 
         $rows = $db -> arrayQuery( $query ); 
         return $rows[0]['mid'];
     } 
